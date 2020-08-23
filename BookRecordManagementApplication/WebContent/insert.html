@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert Book Record</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <link rel ="stylesheet" type="text/css" href="css/insert.css">
+</head>
+<body>
+	
+		<div class="container-fluid jumbotrone">
+			<div class="row">
+				<div class="col-sm-4"></div>
+				<div class="col-sm-4">
+					<h3>Insert Book Record Form</h3>
+					<br><br>
+				</div>
+				<div class="col-sm-4"></div>
+			</div>
+		
+		</div>
+
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-3">
+				<img src="img/book1.jpeg" class="img-thumbnail" alt="bookimg" id="image">
+			</div>
+			<div class="col-sm-6">
+			
+			<form class="form-horizontal" action="Insert">
+			
+				<div class="form-group">
+			    <label class="control-label col-sm-2" for="bookid">Book ID:</label>
+			    <div class="col-sm-10">
+			      <input type="text" class="form-control" id="bid" name="bid" required>
+			    	</div>
+			    </div>
+			  	<div class="form-group">
+			    <label class="control-label col-sm-2" for="bookname">Book Name:</label>
+			    <div class="col-sm-10">
+			      <input type="text" class="form-control" id="bname" name="bname" required>
+			    	</div>
+			    </div>
+			    
+			    <div class="form-group">
+			    <label class="control-label col-sm-2" for="authorename">Authore Name:</label>
+			    <div class="col-sm-10">
+			      <input type="text" class="form-control" id="aname" name="aname" required>
+			    </div>
+			    </div>
+			    
+			    <div class="form-group">
+			    <label class="control-label col-sm-2" for="bookprice">Book Price:</label>
+			    <div class="col-sm-10">
+			      <input type="text" class="form-control" id="bprice" name="bprice" required>
+			    	</div>
+			    </div>
+			    
+			    <div class="form-group">
+    				<div class="col-sm-offset-2 col-sm-10">
+     				 <input type="submit" class="btn btn-default btn-success"  name = "submit"value="Insert Record">&nbsp;&nbsp;
+     				  <input type="reset" class="btn btn-default btn-warning" name="reset">
+     				 
+    			</div>
+ 			 </div>
+			</form>
+		</div>
+			<div class="col-sm-3">
+				<img src="img/book2.jpg" class="img-thumbnail" alt="bookimg" id="image">
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-3">
+				
+			</div>
+			<div class="col-sm-6">
+			
+			<h4>&hearts;A room without books is like a body without a soul.&hearts;</h4>
+			</div>
+			<div class="col-sm-3"></div>
+		</div>
+	</div>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-sm-12">
+				<h4>Go To Home Page?<a href="/BookRecordManagementApplication/index.html"><h4>Click Here</h4></a></h4>
+			</div>
+		</div>
+	</div>
+	
+</body>
+</html>
